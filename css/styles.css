@@ -13,13 +13,11 @@ body
     font-weight: 700;
     line-height: 1.3;
     background: #191a30;
-    /* background: #D26F01 url(../images/background.jpg); */
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
     width: 100%;
     height: 100%;
-    /* max-width: 600pt; */
     padding: 10pt 20pt 10pt 20pt;
     margin: 0;
     display: flex;
@@ -53,7 +51,6 @@ div.content
     align-content: stretch;
     flex-wrap: wrap;
     padding: 0;
-    /* margin: 5pt 5pt 5pt 5pt; */
 }
 
 div.projects
@@ -73,7 +70,6 @@ div.projects
 div.project
 {
     box-sizing: border-box;
-    /* background: #4F0088; */
     display: flex;
     align-items: stretch;
     justify-content: stretch;
@@ -84,9 +80,6 @@ div.project
     padding: 0pt;
     margin: 0pt;
     max-width: 560pt;
-    /* box-shadow: 12pt 18pt #8900C9; */
-    /* min-height: 180pt; */
-    /* min-width: 291pt; */
 }
 
 div.projectContent
@@ -103,14 +96,11 @@ div.projectContent
     padding: 5pt;
     margin: 5pt;
     box-shadow: 12pt 18pt 15pt #10111f;
-    /* min-height: 180pt; */
-    /* min-width: 291pt; */
 }
 
 div.cell
 {
     box-sizing: border-box;
-    /* background: #9500FF; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,13 +109,11 @@ div.cell
     flex-grow: 1;
     padding: 5pt;
     margin: 0pt;
-    /* max-width: 320pt; */
 }
 
 div.cellText
 {
     box-sizing: border-box;
-    /* background: #9500FF; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,7 +122,6 @@ div.cellText
     flex-grow: 1;
     padding: 0pt 10pt 0pt 10pt;
     margin: 0pt;
-    /* max-width: 320pt; */
 }
 
 div.cellSpace
@@ -157,7 +144,6 @@ h1
     font-size: 35pt;
     padding: 0;
     margin: 0;
-    /* user-select: none; */
 }
 
 h2 
@@ -166,7 +152,6 @@ h2
     font-size: 24pt;
     padding: 0;
     margin: 0;
-    /* user-select: none; */
 }
 
 img 
@@ -176,13 +161,11 @@ img
     margin: 0;
     max-width:100%;
     max-height:100%;
-    /* max-height: 200pt; */
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
     flex-shrink:  1;
-    /* user-select: none; */
 }
 
 
@@ -191,7 +174,6 @@ iframe
     display: block;
     padding: 0;
     margin: 0;
-    /* max-height: 200pt; */
     margin-left: auto;
     margin-right: auto;
 }
