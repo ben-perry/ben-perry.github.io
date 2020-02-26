@@ -29,6 +29,19 @@ body
     margin-right: auto;
 }
 
+div.pageHeader
+{
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 20pt 0pt 4pt 0pt;
+    margin: 0pt;
+    flex-shrink: 0;
+}
+
 div.header
 {
     box-sizing: border-box;
@@ -187,7 +200,7 @@ p
 
 p.about
 {
-    max-width: 400pt;
+    max-width: 450pt;
     padding: 0;
     margin: 5pt 0pt 5pt 0pt;
     font-size: 16pt;
