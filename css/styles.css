@@ -99,13 +99,6 @@ div.projectContent
 {
     box-sizing: border-box;
     background: #2c2e55;
-    display: flex;
-    align-items: stretch;
-    justify-content: stretch;
-    flex-direction: column;
-    align-content: stretch;
-    flex-grow: 1;
-    flex-wrap: wrap;
     padding: 5pt;
     margin: 5pt;
     box-shadow: 12pt 18pt 15pt #10111f;
@@ -226,7 +219,7 @@ p.annotation
 ul
 {
     padding: 0;
-    margin: 20pt 20pt 10pt 40pt;
+    margin: 10pt 20pt 10pt 40pt;
     font-size: 14pt;
 }
 
